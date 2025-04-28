@@ -11,9 +11,8 @@ const Wrapper = styled.div`
 
 const HeaderWrapper = styled.div`
   height: 48px;
-  margin: -16px;
-  padding: 16px;
-  padding-bottom: 4px;
+  margin: 0 -16px;
+  padding: 0 16px;
   border-bottom: 1px solid #e3e3e3;
 `;
 
@@ -24,14 +23,19 @@ const IconWrapper = styled.div`
 `
 
 const SidebarWrapper = styled.div`
-  width: ${props => props.$open ? '30vw' : 0};
-  margin-top: 16px;
+  width: ${props => props.$open ? '20vw' : 0};
+  padding-top: 16px;
   height: 100vh;
   position: absolute;
   background-color: white;
   transition: width 0.5s;
   border-right: ${props => props.$open ? '1px solid #e3e3e3' : ''};
   overflow: hidden;
+  z-index: 1000;
+
+  > * {
+    text-wrap: nowrap;
+  }
 `;
 
 
