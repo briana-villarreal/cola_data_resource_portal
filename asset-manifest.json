@@ -1,16 +1,15 @@
 {
   "files": {
     "main.css": "/cola_data_resource_portal/static/css/main.f855e6bc.css",
-    "main.js": "/cola_data_resource_portal/static/js/main.ddc61de3.js",
+    "main.js": "/cola_data_resource_portal/static/js/main.b442a83f.js",
     "static/js/453.49057ac3.chunk.js": "/cola_data_resource_portal/static/js/453.49057ac3.chunk.js",
-    "static/media/logo.svg": "/cola_data_resource_portal/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/cola_data_resource_portal/index.html",
     "main.f855e6bc.css.map": "/cola_data_resource_portal/static/css/main.f855e6bc.css.map",
-    "main.ddc61de3.js.map": "/cola_data_resource_portal/static/js/main.ddc61de3.js.map",
+    "main.b442a83f.js.map": "/cola_data_resource_portal/static/js/main.b442a83f.js.map",
     "453.49057ac3.chunk.js.map": "/cola_data_resource_portal/static/js/453.49057ac3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.ddc61de3.js"
+    "static/js/main.b442a83f.js"
   ]
 }
