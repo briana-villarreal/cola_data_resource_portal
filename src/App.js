@@ -1,6 +1,6 @@
 import './App.css';
 import { RoutesCmp } from './routes';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import { useEffect, useState, useRef } from 'react';
 import { Link } from 'react-router';
 
@@ -26,7 +26,15 @@ const IconWrapper = styled.div`
 const SidebarWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  width: ${props => props.$open ? '15vw' : 0};
+  width: 0;
+  ${props => props.$open ? css`
+    width: 15vw;
+
+    @media (max-width: 480px) {
+      width: 50vw;
+    }
+    ` : ''
+  };
   padding-top: 16px;
   height: 100vh;
   position: absolute;
